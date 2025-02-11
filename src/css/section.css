@@ -1,0 +1,176 @@
+.compre-ja .cartao .capa-do-jogo {
+    width: 9.37rem;
+    height: 12.5rem;
+}
+
+.compre-ja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 3.12rem 3.12rem 3.12rem;
+
+    position: relative;
+}
+
+.compre-ja::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+}
+
+.compre-ja .titulo {
+    font-family: var(--font-primary);
+    font-size: 3.12rem;
+    margin: 3.12rem 0;
+    text-decoration: underline var(--color-primary);
+    z-index: 1;
+}
+
+.compre-ja .cartoes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    z-index: 1;
+}
+
+.compre-ja .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 0.5px solid var(--color-primary);
+    width: 50%;
+    border-radius: 10px;
+    padding: 1.87rem 2.5rem;
+    gap: 1.87rem;
+    backdrop-filter: blur(10px);
+}
+
+.compre-ja .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.87rem;
+}
+
+.compre-ja .informacoes h3 {
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.compre-ja .informacoes p {
+    color: var(--color-secundary);
+    font-size: 0.87rem;
+    line-height: 1.6;
+}
+
+.compre-ja .informacoes p span {
+    color: var(--color-primary);
+}
+
+.compre-ja .informacoes .plataformas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.compre-ja .informacoes .plataformas li img {
+    width: 80%;
+}
+
+.compre-ja .informacoes .plataformas li .logo-switch {
+    width: 30px;
+}
+
+.compre-ja .btn-plataforma .plataformas li .logo-switch {
+    width: 17%;
+}
+
+.btn-plataforma {
+    color: var(--color-primary);
+    background-color: var(--btn-bg-color);
+    border: 0.5px solid var(--color-primary);
+    border-radius: 0.25rem;
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.compre-ja .btn-plataforma .plataformas {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    transition: all .3s ease-in;
+    display: none;
+    opacity: 0;
+}
+
+.compre-ja .btn-plataforma .plataformas.ativo {
+    display: flex;
+    opacity: 1;
+    height: 11.25rem;
+    overflow-y: scroll;
+}
+
+.compre-ja .btn-plataforma .plataformas li {
+    padding: 1.25rem;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(1) {
+    border: 1px solid #00439c;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(1):hover {
+    background-color: #00439c;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(2) {
+    border: 1px solid #387a26;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(2):hover {
+    background-color: #387a26;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(3) {
+    border: 1px solid #00439c;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(3):hover {
+    background-color: #00439c;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(4) {
+    border: 1px solid #387a26;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(4):hover {
+    background-color: #387a26;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(5) {
+    border: 1px solid #fcaf17;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(5):hover {
+    background-color: #fcaf17;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(6) {
+    border: 1px solid #fc1717;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(6):hover {
+    background-color: #fc1717;
+}

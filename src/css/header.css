@@ -1,0 +1,49 @@
+.cabecalho {
+    height: 3.1rem;
+    background: url(../image/header-bg.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.1rem;
+}
+
+.cabecalho .logo-warner {
+    width: 23px;
+}
+
+.cabecalho .logo-hg {
+    width: 120px;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    gap: 1.87rem;
+}
+
+.cabecalho .logo hr {
+    height: 1.87rem;
+    border-color: var(--color-primary);
+    opacity: 0.5;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 1.56rem;
+}
+
+.cabecalho .menu li a {
+    padding: 1.25rem 1.25rem 0.75rem 1.25rem;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 0.93rem;
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 0.12rem solid var(--color-primary);
+}
+
+.cabecalho .menu li a .bi-box-arrow-up-right {
+    font-size: 0.62rem;
+    margin-left: 0.25rem;
+}

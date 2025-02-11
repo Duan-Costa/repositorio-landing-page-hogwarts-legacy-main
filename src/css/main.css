@@ -1,0 +1,58 @@
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 3.12rem);
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+}
+
+.home .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 3.12rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4.37rem 5rem 0 8.75rem;
+    max-width: 48.75rem;
+}
+
+.home .informacoes img {
+    max-width: 400px;
+}
+
+.home .informacoes .titulo {
+    font-family: var(--font-primary);
+    font-size: 2.18rem;
+}
+
+.home .informacoes .texto {
+    font-size: 1.12rem;
+    line-height: 1.6;
+}
+
+.btn-comprar {
+    color: var(--color-primary);
+    background-color: var(--btn-bg-color);
+    border: 0.5px solid var(--color-primary);
+    border-radius: 0.25rem;
+    font-family: var(--font-primary);
+    font-size: 1.75rem;
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.btn-comprar:hover {
+    background-color: var(--color-primary);
+    color: #000;
+}
