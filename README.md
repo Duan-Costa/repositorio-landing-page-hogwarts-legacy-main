@@ -9,9 +9,8 @@
 
 <br>
 
-<p align="center">
-  <img alt="projeto Portfólio" src=".github/preview-cover.png" width="100%">
-</p>
+![image](https://github.com/user-attachments/assets/e9cc35e9-a499-4fee-ab78-61e7828808a6)
+
 
 ## 🚀 Tecnologias
 
@@ -22,8 +21,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 
+![capa-hogwarts-legacy-2](https://github.com/user-attachments/assets/86a98c4a-de03-4e32-9312-92ee024a970c)
 
-- [Acesse o projeto finalizado, online](https://github.com/Duan-Costa)
+
 
 ### ⚙ Funcionalidades
 
